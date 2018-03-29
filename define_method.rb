@@ -7,6 +7,7 @@ end
 author = Author.new
 author.some_method
 
+
 class Author
   genres = %w(fiction coding history)
 
@@ -18,6 +19,7 @@ class Author
     end
   end
 end
+
 
 author = Author.new
 author.fiction_details "Ayn Rand"
